@@ -16,6 +16,7 @@
         <relativePath>pom.xml</relativePath>
     </parent>
 
+
     <modules>
         <module>inventory-service</module>
         <module>order-service</module>
