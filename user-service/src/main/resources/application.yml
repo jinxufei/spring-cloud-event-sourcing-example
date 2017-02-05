@@ -13,11 +13,20 @@ logging.level.org.springframework.security: DEBUG
 spring:
   profiles: development
   datasource:
-    url: jdbc:mysql://192.168.99.100:3306/dev
+    url: jdbc:mysql://127.0.0.1:3306/dev
     username: root
-    password: dbpass
+    password: root
     initialize: true
 security.ignored: /resources/**
+eureka:
+  instance:
+    prefer-ip-address: true
+    non-secure-port: 8181
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
 ---
 server:
   port: 8181
