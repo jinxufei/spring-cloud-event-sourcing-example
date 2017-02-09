@@ -20,7 +20,7 @@ zuul:
 security:
   oauth2:
     resource:
-      userInfoUri: http://127.0.0.1:8181/uaa/user
+      userInfoUri: http://127.0.0.1:8181/uaa/userP
   ignored: /catalog/**
 eureka:
   instance:

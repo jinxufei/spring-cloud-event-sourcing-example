@@ -56,7 +56,7 @@ class Neo4jProperties {
     }
 
     public String getPassword() {
-        return password;
+        return "root";
     }
 
     public void setPassword(String password) {
@@ -64,7 +64,7 @@ class Neo4jProperties {
     }
 
     public String getUsername() {
-        return username;
+        return "neo4j";
     }
 
     public void setUsername(String username) {
