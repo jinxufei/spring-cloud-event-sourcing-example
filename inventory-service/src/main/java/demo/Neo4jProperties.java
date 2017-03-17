@@ -56,7 +56,7 @@ class Neo4jProperties {
     }
 
     public String getPassword() {
-        return "root";
+        return "jxf";
     }
 
     public void setPassword(String password) {

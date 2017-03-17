@@ -30,6 +30,17 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://127.0.0.1:8761/eureka/
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
+hystrix.command.default.execution.timeout.enabled: false
+hystrix.threadpool.default.coreSize: 50
+hystrix.threadpool.default.maxQueueSize: 100
+hystrix.threadpool.default.queueSizeRejectionThreshold : 50
+feign:
+  histrix:
+    enabled: false
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 60000
 ---
 spring:
   profiles: docker
