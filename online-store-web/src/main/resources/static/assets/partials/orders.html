@@ -3,20 +3,20 @@
         <div class="col-md-12 panel-head-list">
             <div class="panel panel-default">
                 <!-- Default panel contents -->
-                <div class="panel-heading"><i class="fa fa-home icon-head"></i>Order History</div>
+                <div class="panel-heading"><i class="fa fa-home icon-head"></i>订单历史</div>
                 <ul class="list-group list-group-details shopping-cart" ng-if="orders.length == 0">
                     <li class="list-group-item">
-                        Your order history will display here after your first checkout
+                       你目前尚未创建任何订单！去创建第一个订单吧
                     </li>
                 </ul>
                 <div class="table-responsive">
                     <table class="table table-striped" ng-if="orders.length > 0">
                         <thead>
                         <tr>
-                            <th>Order</th>
-                            <th>Status</th>
-                            <th class="hidden-xs">Date</th>
-                            <th>Total</th>
+                            <th>订单</th>
+                            <th>状态</th>
+                            <th class="hidden-xs">日期</th>
+                            <th>总计</th>
                         </tr>
                         </thead>
                         <tbody>

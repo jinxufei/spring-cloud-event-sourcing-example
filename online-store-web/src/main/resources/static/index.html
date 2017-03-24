@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Cloud Native Outfitters</title>
+    <title>夏季衬衫-热卖小店</title>
 
     <link type="text/css" rel="stylesheet"
           href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700">
@@ -57,22 +57,22 @@
                 <i class="fa fa-cloud"></i>
             </div>
             <a class="navbar-brand" href="#">
-                <div class="brand">Cloud Native Outfitters</div>
+                <div class="brand">夏季衬衫-热卖小店</div>
             </a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li ng-if="user.id != undefined">
                     <span class="ng-binding welcome-tag">
-                        <span>Welcome,</span>
+                        <span>欢迎你,</span>
                         <span>{{ user.firstName }} {{ user.lastName }}!</span>
                     </span>
                 </li>
-                <li ng-if="user.id != undefined"><a href="/#/orders">Orders</a></li>
-                <li ng-if="user.id != undefined"><a href="/#/settings">Settings</a></li>
-                <li ng-if="user.id != undefined"><a href="/#/cart"><i class="fa fa-shopping-cart"></i><span class="cart-icon">Cart</span></a></li>
-                <li ng-if="user.id == undefined"><a href="/login">Login</a></li>
-                <li ng-if="user.id != undefined"><a ng-click="logout()" href="#">Logout</a></li>
+                <li ng-if="user.id != undefined"><a href="/#/orders">订单</a></li>
+                <li ng-if="user.id != undefined"><a href="/#/settings">设置</a></li>
+                <li ng-if="user.id != undefined"><a href="/#/cart"><i class="fa fa-shopping-cart"></i><span class="cart-icon">购物车</span></a></li>
+                <li ng-if="user.id == undefined"><a href="/login">登录</a></li>
+                <li ng-if="user.id != undefined"><a ng-click="logout()" href="#">注销</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>

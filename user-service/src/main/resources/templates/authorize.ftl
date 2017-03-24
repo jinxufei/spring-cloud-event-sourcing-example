@@ -8,7 +8,7 @@
     <meta name="author" content=""/>
     <link rel="icon" href="favicon.ico"/>
 
-    <title>Cloud Native Login</title>
+    <title>登录-夏季热卖</title>
 
     <!-- Bootstrap core CSS -->
     <link href="resources/dist/css/bootstrap.min.css" rel="stylesheet"/>
@@ -32,12 +32,10 @@
 </head>
 <body>
 <div class="container">
-    <h2>Please Confirm</h2>
+    <h2>请确认</h2>
 
     <p>
-        Do you authorize "${authorizationRequest.clientId}" at "${authorizationRequest.redirectUri}" to access your
-        protected resources
-        with scope ${authorizationRequest.scope?join(", ")}.
+        你是否授权 "${authorizationRequest.clientId}" 在"${authorizationRequest.redirectUri}"范围访问受保护的资源 ${authorizationRequest.scope?join(", ")}.
     </p>
     <form id="confirmationForm" name="confirmationForm"
           action="oauth/authorize" method="post">
