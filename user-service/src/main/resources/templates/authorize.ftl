@@ -42,13 +42,13 @@
         <input name="user_oauth_approval" value="true" type="hidden"/>
         <input name="scope.openid" value="true" type="hidden"/>
         <#--<input type="hidden" id="csrf_token" name="${_csrf.parameterName}" value="${_csrf.token}"/>-->
-        <button class="btn btn-primary" type="submit">Approve</button>
+        <button class="btn btn-primary" type="submit">同意</button>
     </form>
     <form id="denyForm" name="confirmationForm"
           action="oauth/authorize" method="post">
         <input name="user_oauth_approval" value="false" type="hidden"/>
         <#--<input type="hidden" id="csrf_token" name="${_csrf.parameterName}" value="${_csrf.token}"/>-->
-        <button class="btn btn-primary" type="submit">Deny</button>
+        <button class="btn btn-primary" type="submit">拒绝</button>
     </form>
 </div>
 

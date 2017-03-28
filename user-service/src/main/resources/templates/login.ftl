@@ -42,7 +42,7 @@
         <label for="password" class="sr-only">密码</label>
         <input type="password" id="password" name="password" class="form-control" placeholder="Password"/>
         <#--<input type="hidden" id="csrf_token" name="${_csrf.parameterName}" value="${_csrf.token}"/>-->
-        <input class="btn btn-lg btn-primary btn-block" value="Sign in" type="submit"/>
+        <input class="btn btn-lg btn-primary btn-block" value="登 录" type="submit"/>
     </form>
 
 </div> <!-- /container -->

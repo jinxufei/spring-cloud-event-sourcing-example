@@ -30,6 +30,9 @@
         <module>edge-service</module>
         <module>shopping-cart-service</module>
         <module>hystrix-dashboard</module>
+        <module>admin-dashboard</module>
+        <module>admin-dashboard</module>
+        <module>admin-dashboard</module>
     </modules>
 
     <properties>
