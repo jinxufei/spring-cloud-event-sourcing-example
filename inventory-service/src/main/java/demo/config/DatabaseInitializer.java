@@ -66,7 +66,48 @@ public class DatabaseInitializer {
                         "<br /><br />&nbsp; <strong>Cloud Native Tee Collection</strong><br />" +
                         "&nbsp; 110% cloud stuff, 5% spandex<br />&nbsp; Rain wash only<br />&nbsp; " +
                         "Four nines of <em>stylability</em></p>", 21.99),
-
+                new Product("Best. Cloud. Ever. (T-Shirt, Men's Large)", "SKU-24642", "<p>Do you love your cloud platform? " +
+                        "Do you push code continuously into production on a daily basis? " +
+                        "Are you living the cloud native microservice dream? Then rain or shine, this T-Shirt is for you. " +
+                        "Show the world you're a stylish cloud platform architect with this cute yet casual tee. " +
+                        "<br /><br />&nbsp; <strong>Cloud Native Tee Collection</strong><br />" +
+                        "&nbsp; 110% cloud stuff, 5% spandex<br />&nbsp; Rain wash only<br />&nbsp; " +
+                        "Four nines of <em>stylability</em></p>", 21.99),
+                new Product("Best. Cloud. Ever. (T-Shirt, Men's Large)", "SKU-24642", "<p>Do you love your cloud platform? " +
+                        "Do you push code continuously into production on a daily basis? " +
+                        "Are you living the cloud native microservice dream? Then rain or shine, this T-Shirt is for you. " +
+                        "Show the world you're a stylish cloud platform architect with this cute yet casual tee. " +
+                        "<br /><br />&nbsp; <strong>Cloud Native Tee Collection</strong><br />" +
+                        "&nbsp; 110% cloud stuff, 5% spandex<br />&nbsp; Rain wash only<br />&nbsp; " +
+                        "Four nines of <em>stylability</em></p>", 21.99),
+                new Product("Best. Cloud. Ever. (T-Shirt, Men's Large)", "SKU-24642", "<p>Do you love your cloud platform? " +
+                        "Do you push code continuously into production on a daily basis? " +
+                        "Are you living the cloud native microservice dream? Then rain or shine, this T-Shirt is for you. " +
+                        "Show the world you're a stylish cloud platform architect with this cute yet casual tee. " +
+                        "<br /><br />&nbsp; <strong>Cloud Native Tee Collection</strong><br />" +
+                        "&nbsp; 110% cloud stuff, 5% spandex<br />&nbsp; Rain wash only<br />&nbsp; " +
+                        "Four nines of <em>stylability</em></p>", 21.99),
+                new Product("Best. Cloud. Ever. (T-Shirt, Men's Large)", "SKU-24642", "<p>Do you love your cloud platform? " +
+                        "Do you push code continuously into production on a daily basis? " +
+                        "Are you living the cloud native microservice dream? Then rain or shine, this T-Shirt is for you. " +
+                        "Show the world you're a stylish cloud platform architect with this cute yet casual tee. " +
+                        "<br /><br />&nbsp; <strong>Cloud Native Tee Collection</strong><br />" +
+                        "&nbsp; 110% cloud stuff, 5% spandex<br />&nbsp; Rain wash only<br />&nbsp; " +
+                        "Four nines of <em>stylability</em></p>", 21.99),
+                new Product("Best. Cloud. Ever. (T-Shirt, Men's Large)", "SKU-24642", "<p>Do you love your cloud platform? " +
+                        "Do you push code continuously into production on a daily basis? " +
+                        "Are you living the cloud native microservice dream? Then rain or shine, this T-Shirt is for you. " +
+                        "Show the world you're a stylish cloud platform architect with this cute yet casual tee. " +
+                        "<br /><br />&nbsp; <strong>Cloud Native Tee Collection</strong><br />" +
+                        "&nbsp; 110% cloud stuff, 5% spandex<br />&nbsp; Rain wash only<br />&nbsp; " +
+                        "Four nines of <em>stylability</em></p>", 21.99),
+                new Product("Best. Cloud. Ever. (T-Shirt, Men's Large)", "SKU-24642", "<p>Do you love your cloud platform? " +
+                        "Do you push code continuously into production on a daily basis? " +
+                        "Are you living the cloud native microservice dream? Then rain or shine, this T-Shirt is for you. " +
+                        "Show the world you're a stylish cloud platform architect with this cute yet casual tee. " +
+                        "<br /><br />&nbsp; <strong>Cloud Native Tee Collection</strong><br />" +
+                        "&nbsp; 110% cloud stuff, 5% spandex<br />&nbsp; Rain wash only<br />&nbsp; " +
+                        "Four nines of <em>stylability</em></p>", 21.99),
                 new Product("Like a BOSH (T-Shirt, Women's Medium)", "SKU-34563", "<p>The BOSH Outer Shell (<strong>BOSH</strong>) " +
                         "is an elegant release engineering tool for a more virtualized cloud-native age. " +
                         "The feeling of spinning up a highly available distributed system of VMs is second only to the " +
@@ -91,7 +132,9 @@ public class DatabaseInitializer {
 
         productRepository.save(products);
         Catalog catalog = new Catalog("Fall Catalog", 0L);
+        Catalog catalog1 = new Catalog("Fall Catalog", 1L);
         catalog.getProducts().addAll(products);
+        catalog1.getProducts().addAll(products);
         catalogRepository.save(catalog);
 
         Address warehouseAddress = new Address("875 Howard St", null,
