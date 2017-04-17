@@ -8,8 +8,6 @@ import java.util.UUID;
 /**
  * This model represents a user.
  *
- * @author Kenny Bastani
- * @author Josh Long
  */
 @Entity
 public class User implements Serializable {

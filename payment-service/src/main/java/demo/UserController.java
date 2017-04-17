@@ -12,8 +12,6 @@ import java.util.Optional;
  * This controller acts as a REST resource repository for users
  * and uses Redis for caching.
  *
- * @author Kenny Bastani
- * @author Josh String
  */
 @RestController
 public class UserController {
