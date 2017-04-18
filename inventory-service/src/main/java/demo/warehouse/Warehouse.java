@@ -8,8 +8,6 @@ import org.neo4j.ogm.annotation.Relationship;
 /**
  * A simple domain class for the {@link Warehouse}
  *
- * @author Kenny Bastani
- * @author Josh Long
  */
 @NodeEntity
 public class Warehouse {

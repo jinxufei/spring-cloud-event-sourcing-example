@@ -8,8 +8,6 @@ import java.io.Serializable;
 /**
  * The {@link Customer} entity is a root object in the customer bounded context.
  *
- * @author Kenny Bastani
- * @author Josh Long
  */
 public class Customer extends BaseEntity implements Serializable {
 

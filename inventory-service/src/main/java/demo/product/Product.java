@@ -7,8 +7,6 @@ import org.neo4j.ogm.annotation.Transient;
 /**
  * A simple domain class for the {@link Product} concept in the order context.
  *
- * @author Kenny Bastani
- * @author Josh Long
  */
 @NodeEntity
 public class Product {
